@@ -1,8 +1,8 @@
 CREATE TABLE products (
     id SERIAL PRIMARY KEY,
     name VARCHAR(50),
-    price NUMERIC,
-    image TEXT
+    price NUMERIC NOT NULL,
+    image TEXT NOT NULL
 );
 
 SELECT * FROM products;

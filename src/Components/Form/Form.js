@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 
 export default class Form extends React.Component {
-    /* constructor(){
+    constructor(){
         super()
         this.state = {
             name: "",
@@ -17,7 +17,7 @@ export default class Form extends React.Component {
         }
     }
 
-    priceInput(val) {
+     priceInput(val) {
         if (val[0] === '.') {
             val = '0' + val
         } 
@@ -26,20 +26,14 @@ export default class Form extends React.Component {
         }
     }
 
-    imageInput(url) {
-        let image = new Image();
-        img.onload = _ => this.setState({ img: url });
-    img.onerror = _ => this.setState({ img: '' });
-    img.src = url;
-  }
     }
 
     handleChange = (e) => {
         this.setState({
           [e.target.name]: e.target.value
         })
-      } */
-
+      }
+ 
 
     
     render(){
